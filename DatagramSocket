@@ -1,0 +1,3 @@
+DatagramSocket datagramSocket = new DatagramSocket();
+// Optional: connect for default remote address, or specify InetAddress and port in each send
+// datagramSocket.connect(InetAddress.getByName(serverAddress), serverPort);
